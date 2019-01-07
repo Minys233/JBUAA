@@ -217,10 +217,11 @@ The LaTeX template for Journal of BUAA]
 
 {\hei\wuhao \makebox[\widthof{中图分类号}][s]{关键词}:} \fang \jbuaaCKeyword
 
-{\hei\wuhao \makebox[\widthof{中图分类号}][s]{中图分类号}:} \jbuaaCLCNo
+%{\hei\wuhao \makebox[\widthof{中图分类号}][s]{中图分类号}:} \jbuaaCLCNo
 
-{\hei\wuhao \makebox[\widthof{中图分类号}][s]{文献标识码}: \jbuaaDcode \qquad \qquad \qquad \qquad 文章编号: \jbuaaPaperNo}
-\vspace*{1.3cm}}
+%{\hei\wuhao \makebox[\widthof{中图分类号}][s]{文献标识码}: \jbuaaDcode \qquad \qquad \qquad \qquad 文章编号: \jbuaaPaperNo}
+\vspace*{.3cm}
+}
 \end{center}
 }
 
