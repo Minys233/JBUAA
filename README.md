@@ -1,41 +1,28 @@
+# 使用方法
 
-!!!!! 注意，北航学报目前不接收LaTex稿件 !!!!!
-
-## 亲试，上传了tex源文件以及pdf文件，收到回信：缺少稿件Word版。
-# 希望本模板将来会有用
-
-北航学报自然科学版LaTeX模板（非官方）
-
-LaTeX Template (unofficial) for Journal of Beijing University of Aeronautics and Astronautics
-
-模板是根据 “北航学报模板17.1.16” word版改的，非官方。最终格式解释权在北航学报，本工作只作为参考。
-
-jbuaa.cls 模板文件
-
-cite.sty、GB.cpx 引用样式、中文支持相关文件（文件内有原作者信息）
-
-TempExample.tex 正文内容
-
-TempExample.bib 参考文献
-
-image 文件夹下是正文中用到的图片文件
-
-在完整安装texlive 2016 或者 texlive 2017条件下，直接在命令行按顺序运行如下命令即可
-
-xelatex TempExample.tex  
-bibtex TempExample  
-xelatex TempExample.tex  
-xelatex TempExample.tex 
-
-最终生成TempExample.pdf文件
-
-#######################################################
-
-Symbol 文件夹下是《变量符号说明》生成文档
-增加了符号在文中的位置的信息，需要辅助文件TempExample.aux
+本项目Fork自[航空学报LaTeX模板（非官方）](https://github.com/Htallone/AAAS)，目的是为以后的课程论文或个人需要提供一个类似中文期刊格式的好用的TeX模板。
 
 
-![shot](shot.png)
+
+## 编译方法
+
+目录下使用GNU `make`。这将会编译出`main.pdf`并删除中间文件。
+
+目前使用XeLaTeX在Ubuntu 18.04 与 MacOS Mojave上测试通过。如果你在编译过程中发现了字体缺失的问题，因为字体使用可能涉及版权，故烦请自行解决。
 
 
+
+## 修改说明
+
+主要修改了文章开头和结尾，去掉了不必要的部分。如果觉得那里还不尽人意，欢迎对`sty`文件进行二次创作，内容很好懂。
+
+
+
+## License
+
+来自[航空学报LaTeX模板（非官方）](https://github.com/Htallone/AAAS)项目：
+
+> 示例文件TempExample.tex内容（包括图片）来自北航学报模板word版17.1.16 和 航空学报模板word版 2017-07-20。
+> cite.sty、GB.cpx文件里面包含作者信息。
+> 模板文件aaas.cls在确保自由使用条件下随意使用。
 
